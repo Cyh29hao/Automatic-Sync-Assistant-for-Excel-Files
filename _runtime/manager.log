@@ -1,0 +1,34 @@
+2026-03-27 12:33:22,917 [ERROR] Task '1219 sync attempt' failed
+Traceback (most recent call last):
+  File "D:\桌面\work galleries\0327query\gui_sync_manager_v1\engine.py", line 420, in _sync_one
+    target_path = sync_task(task, self.settings)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\桌面\work galleries\0327query\gui_sync_manager_v1\engine.py", line 198, in sync_task
+    raise ValueError('Pick at least one column.')
+ValueError: Pick at least one column.
+2026-03-27 12:33:44,622 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:34:43,817 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:37:16,923 [INFO] GUI sync service stopped.
+2026-03-27 12:38:15,590 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:40:43,474 [INFO] GUI sync service stopped.
+2026-03-27 12:45:03,841 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:46:25,985 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:50:59,138 [INFO] GUI sync service stopped.
+2026-03-27 12:51:05,518 [INFO] GUI sync service started.
+2026-03-27 12:51:12,665 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:51:23,226 [INFO] GUI sync service stopped.
+2026-03-27 12:53:03,516 [INFO] GUI sync service started.
+2026-03-27 12:53:09,397 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:53:10,643 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:53:22,694 [INFO] Detected file change for task '1219 sync attempt'
+2026-03-27 12:53:29,806 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:54:42,486 [INFO] GUI sync service stopped.
+2026-03-27 12:56:09,875 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:56:35,204 [INFO] GUI sync service started.
+2026-03-27 12:56:42,331 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:57:04,428 [INFO] Detected file change for task '1219 sync attempt'
+2026-03-27 12:57:11,561 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:57:29,489 [INFO] GUI sync service stopped.
+2026-03-27 12:58:35,699 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-27 12:58:55,004 [INFO] GUI sync service started.
+2026-03-27 12:59:02,177 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
