@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "debounce_seconds": 5.0,
+    "post_save_delay_seconds": 1.0,
+    "read_retry_count": 3,
+    "read_retry_delay_seconds": 1.2,
+    "scan_interval_seconds": 2.0,
+    "retry_locked_file_seconds": 5.0
+  },
+  "tasks": []
+}

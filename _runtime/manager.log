@@ -32,3 +32,19 @@ ValueError: Pick at least one column.
 2026-03-27 12:58:35,699 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
 2026-03-27 12:58:55,004 [INFO] GUI sync service started.
 2026-03-27 12:59:02,177 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-30 04:24:20,989 [INFO] GUI sync service started.
+2026-03-30 04:24:27,440 [INFO] GUI sync service started.
+2026-03-30 04:24:48,855 [INFO] Task '1219 sync attempt' synced to D:\桌面\work galleries\0327query\exports\蓉达货表.xlsx
+2026-03-30 04:25:48,054 [WARNING] Task '1219 sync attempt' is waiting for file unlock.
+2026-03-30 04:25:56,285 [INFO] Task '1219 sync attempt' synced to D:\桌面\同步.xlsx
+2026-03-30 04:26:31,977 [INFO] GUI sync service stopped.
+2026-03-30 04:26:33,151 [INFO] GUI sync service started.
+2026-03-30 04:27:13,575 [INFO] GUI sync service stopped.
+2026-03-30 04:27:14,550 [INFO] GUI sync service started.
+2026-03-30 04:36:38,287 [INFO] GUI sync service stopped.
+2026-03-30 04:45:02,769 [INFO] GUI sync service started.
+2026-03-30 04:47:26,290 [INFO] Task '0445 demo' synced to D:\桌面\同步.xlsx
+2026-03-30 04:48:15,726 [INFO] Task '0445 demo' synced to D:\桌面\同步.xlsx
+2026-03-30 04:49:03,696 [WARNING] Task '0445 demo-副本' is waiting for file unlock.
+2026-03-30 04:49:12,972 [INFO] Task '0445 demo-副本' synced to D:\桌面\同步.xlsx
+2026-03-30 04:50:52,202 [INFO] GUI sync service stopped.

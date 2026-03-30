@@ -1,16 +1,21 @@
-# Excel Sync Manager V1
+﻿# Excel Sync Manager V1
 
-This folder contains a GUI-first version of the Excel sync tool.
+This folder contains the GUI-first version of the Excel sync tool.
 
-## What it does
+## Features
 
-- Lets you create, edit, enable, disable, and delete sync tasks in a desktop window
-- Watches source Excel files in the background
-- Syncs selected columns from a source sheet into a target workbook
-- Exports formula display values by default, which is safer for outward-facing files
-- Retries automatically when WPS or Excel is locking the source or target file
+- Create, edit, enable, disable, and delete sync tasks in a desktop window
+- Watch source Excel files in the background
+- Sync selected columns from a source sheet into a target workbook
+- Export formula display values by default
+- Retry automatically when WPS or Excel is locking the source or target file
 
-## How to use
+## Versioning
+
+- The single source of truth for app version is `metadata.py`
+- Change only `APP_VERSION` there when you want a new release
+
+## Run In Development
 
 1. Double-click `start_manager.cmd`
 2. Click `New task`
@@ -22,8 +27,25 @@ This folder contains a GUI-first version of the Excel sync tool.
 8. Save the task
 9. Click `Start monitoring`
 
+## Build A Release
+
+1. Make sure Python dependencies are installed from `requirements-dev.txt`
+2. Update `APP_VERSION` in `metadata.py` if needed
+3. Run `build_release.cmd` or `build_release.ps1`
+4. After build:
+   - `dist\Excel Sync Manager` is the raw PyInstaller output
+   - `release\Excel Sync Manager vX.Y` is the clean release folder
+   - `release\Excel Sync Manager vX.Y.zip` is the shareable zip
+
+## Release Layout
+
+- `Excel Sync Manager.exe`: the GUI app for end users
+- `tasks.json`: saved tasks and settings, stored next to the exe
+- `_runtime\manager.log`: runtime log
+- `README_RELEASE.md`: short end-user instructions
+
 ## Notes
 
-- Task data is stored in `tasks.json`, but the main workflow is through the GUI
-- Log output is written to `_runtime\manager.log`
-- Double-click a task row to quickly toggle it on or off
+- Development mode reads and writes `tasks.json` in this folder
+- Packaged mode reads and writes `tasks.json` next to the exe
+- For end users, send the versioned release folder or zip from `release`, not the raw `dist` folder

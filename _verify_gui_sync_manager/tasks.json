@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "debounce_seconds": 5.0,
+    "post_save_delay_seconds": 1.0,
+    "read_retry_count": 3,
+    "read_retry_delay_seconds": 1.2,
+    "scan_interval_seconds": 2.0,
+    "retry_locked_file_seconds": 5.0
+  },
+  "tasks": [
+    {
+      "id": "3ad9c829e7404549a7654a65d35a610a",
+      "name": "verify",
+      "enabled": true,
+      "source_file": "_verify_gui_sync_manager\\source.xlsx",
+      "source_sheet": "Main",
+      "target_file": "_verify_gui_sync_manager\\target.xlsx",
+      "target_sheet": "Export",
+      "columns_by_header": [
+        "ID",
+        "LoadPort"
+      ],
+      "header_row": 1,
+      "data_start_row": 2,
+      "copy_style": true,
+      "copy_column_widths": true,
+      "copy_row_heights": true,
+      "include_header": true,
+      "drop_empty_rows": true,
+      "formula_handling": "values"
+    }
+  ]
+}
